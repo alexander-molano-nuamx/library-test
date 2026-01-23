@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { NuamThemeWrapper } from '@nuam/common-fe-lib-components';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <NuamThemeWrapper>
+      <App />
+    </NuamThemeWrapper>
   </React.StrictMode>
 );
 
