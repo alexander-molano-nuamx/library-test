@@ -19,3 +19,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Breadcrumbs - usando variables CSS del tema nuam */
+nav[aria-label="breadcrumb"] a {
+  color: var(--mui-palette-primary-main);
+  text-decoration: none;
+}
+
+nav[aria-label="breadcrumb"] a:hover {
+  text-decoration: underline;
+}

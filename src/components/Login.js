@@ -88,7 +88,8 @@ function Login() {
               fullWidth
               required
               disabled={isLoading}
-              sx={{ mb: 2 }}
+                sx={{ mb: 2 }}
+                size="small"
             />
             <TextField
               label="Contraseña"
@@ -98,7 +99,8 @@ function Login() {
               fullWidth
               required
               disabled={isLoading}
-              sx={{ mb: 2 }}
+                sx={{ mb: 2 }}
+                size='small'
             />
             <Box
               sx={{

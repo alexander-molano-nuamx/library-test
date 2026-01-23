@@ -3,6 +3,7 @@ import { AuthProvider } from './context/AuthContext';
 import { useAuth } from './hooks/useAuth';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import GestionOrden from './components/GestionOrden';
 import ProtectedRoute from './components/ProtectedRoute';
 
 // Componente para redirigir si ya está autenticado
@@ -34,6 +35,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/etf/gestion-orden"
+        element={
+          <ProtectedRoute>
+            <GestionOrden />
           </ProtectedRoute>
         }
       />

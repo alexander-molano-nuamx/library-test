@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0001",
+    "nombreEtf": "Horizons Fondo Bursátil iShares",
+    "nemotecnico": "HCOLSEL",
+    "fechaOperacion": "28 de agosto 2025"
+  },
+  {
+    "id": 2,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0002",
+    "nombreEtf": "iShares COLCAP (Fondo Bursátil)",
+    "nemotecnico": "ICOLCAP",
+    "fechaOperacion": "28 de agosto 2025"
+  },
+  {
+    "id": 3,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "PE0001",
+    "nombreEtf": "Acciones ordinarias",
+    "nemotecnico": "ICOLCAP",
+    "fechaOperacion": "28 de agosto 2025"
+  },
+  {
+    "id": 4,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0003",
+    "nombreEtf": "Global X MSCI Colombia ETF",
+    "nemotecnico": "GXG",
+    "fechaOperacion": "27 de agosto 2025"
+  },
+  {
+    "id": 5,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0004",
+    "nombreEtf": "iShares Latin America 40 ETF",
+    "nemotecnico": "ILF",
+    "fechaOperacion": "27 de agosto 2025"
+  },
+  {
+    "id": 6,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "PE0002",
+    "nombreEtf": "Fondo Bursátil Peru Select",
+    "nemotecnico": "PSELECT",
+    "fechaOperacion": "26 de agosto 2025"
+  },
+  {
+    "id": 7,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0005",
+    "nombreEtf": "ETF Renta Fija Colombia",
+    "nemotecnico": "RFCOL",
+    "fechaOperacion": "26 de agosto 2025"
+  },
+  {
+    "id": 8,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CL0001",
+    "nombreEtf": "iShares MSCI Chile ETF",
+    "nemotecnico": "ECH",
+    "fechaOperacion": "25 de agosto 2025"
+  },
+  {
+    "id": 9,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0006",
+    "nombreEtf": "ETF Acciones Colombia Plus",
+    "nemotecnico": "COLPLUS",
+    "fechaOperacion": "25 de agosto 2025"
+  },
+  {
+    "id": 10,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "PE0003",
+    "nombreEtf": "ETF Peru Growth Index",
+    "nemotecnico": "PERGROW",
+    "fechaOperacion": "24 de agosto 2025"
+  },
+  {
+    "id": 11,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0007",
+    "nombreEtf": "Fondo Bursátil Dividendos CO",
+    "nemotecnico": "DIVCO",
+    "fechaOperacion": "24 de agosto 2025"
+  },
+  {
+    "id": 12,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CL0002",
+    "nombreEtf": "ETF Chile Value Index",
+    "nemotecnico": "CHIVAL",
+    "fechaOperacion": "23 de agosto 2025"
+  },
+  {
+    "id": 13,
+    "ordenesIngresadas": "Ver Ordenes",
+    "codigoIsinEtf": "CO0008",
+    "nombreEtf": "ETF Infraestructura Andina",
+    "nemotecnico": "INFAND",
+    "fechaOperacion": "23 de agosto 2025"
+  }
+]

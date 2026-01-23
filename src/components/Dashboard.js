@@ -158,7 +158,11 @@ function Dashboard() {
       path: '/etf',
       icon: <AccountBalance />,
       children: [
-        { name: 'Panel', path: '/etf/panel' },
+        { name: 'Parametrización', path: '/etf/parametrizacion' },
+        { name: 'Mantenimiento de canasta', path: '/etf/mantenimiento-canasta' },
+        { name: 'Creación de orden', path: '/etf/creacion-orden' },
+        { name: 'Gestión de orden', path: '/etf/gestion-orden' },
+        { name: 'Consulta de ordenes', path: '/etf/consulta-ordenes' },
       ]
     },
   ];
