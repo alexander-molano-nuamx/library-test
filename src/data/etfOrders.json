@@ -1,106 +1,281 @@
-[
-  {
-    "id": 1,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0001",
-    "nombreEtf": "Horizons Fondo Bursátil iShares",
-    "nemotecnico": "HCOLSEL",
-    "fechaOperacion": "28 de agosto 2025"
-  },
-  {
-    "id": 2,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0002",
-    "nombreEtf": "iShares COLCAP (Fondo Bursátil)",
-    "nemotecnico": "ICOLCAP",
-    "fechaOperacion": "28 de agosto 2025"
-  },
-  {
-    "id": 3,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "PE0001",
-    "nombreEtf": "Acciones ordinarias",
-    "nemotecnico": "ICOLCAP",
-    "fechaOperacion": "28 de agosto 2025"
-  },
-  {
-    "id": 4,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0003",
-    "nombreEtf": "Global X MSCI Colombia ETF",
-    "nemotecnico": "GXG",
-    "fechaOperacion": "27 de agosto 2025"
-  },
-  {
-    "id": 5,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0004",
-    "nombreEtf": "iShares Latin America 40 ETF",
-    "nemotecnico": "ILF",
-    "fechaOperacion": "27 de agosto 2025"
-  },
-  {
-    "id": 6,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "PE0002",
-    "nombreEtf": "Fondo Bursátil Peru Select",
-    "nemotecnico": "PSELECT",
-    "fechaOperacion": "26 de agosto 2025"
-  },
-  {
-    "id": 7,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0005",
-    "nombreEtf": "ETF Renta Fija Colombia",
-    "nemotecnico": "RFCOL",
-    "fechaOperacion": "26 de agosto 2025"
-  },
-  {
-    "id": 8,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CL0001",
-    "nombreEtf": "iShares MSCI Chile ETF",
-    "nemotecnico": "ECH",
-    "fechaOperacion": "25 de agosto 2025"
-  },
-  {
-    "id": 9,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0006",
-    "nombreEtf": "ETF Acciones Colombia Plus",
-    "nemotecnico": "COLPLUS",
-    "fechaOperacion": "25 de agosto 2025"
-  },
-  {
-    "id": 10,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "PE0003",
-    "nombreEtf": "ETF Peru Growth Index",
-    "nemotecnico": "PERGROW",
-    "fechaOperacion": "24 de agosto 2025"
-  },
-  {
-    "id": 11,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0007",
-    "nombreEtf": "Fondo Bursátil Dividendos CO",
-    "nemotecnico": "DIVCO",
-    "fechaOperacion": "24 de agosto 2025"
-  },
-  {
-    "id": 12,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CL0002",
-    "nombreEtf": "ETF Chile Value Index",
-    "nemotecnico": "CHIVAL",
-    "fechaOperacion": "23 de agosto 2025"
-  },
-  {
-    "id": 13,
-    "ordenesIngresadas": "Ver Ordenes",
-    "codigoIsinEtf": "CO0008",
-    "nombreEtf": "ETF Infraestructura Andina",
-    "nemotecnico": "INFAND",
-    "fechaOperacion": "23 de agosto 2025"
-  }
-]
+{
+  "columns": [
+    {
+      "field": "ordenesIngresadas",
+      "headerName": "Ordenes ingresadas",
+      "flex": 1,
+
+      "type": "link"
+    },
+    {
+      "field": "codigoIsinEtf",
+      "headerName": "Código ISIN ETF",
+      "flex": 1
+    },
+    {
+      "field": "nombreEtf",
+      "headerName": "Nombre del ETF",
+      "flex": 1.5
+    },
+    {
+      "field": "nemotecnico",
+      "headerName": "Nemotécnico",
+      "flex": 1
+    },
+    {
+      "field": "fechaOperacion",
+      "headerName": "Fecha de operación",
+      "flex": 1
+    },
+    {
+      "field": "NombreParticipanteRegistrador",
+      "headerName": "Nombre del Participante Registrador",
+      "flex": 1
+    },
+    {
+      "field": "CodigoParticipanteAutorizado",
+      "headerName": "Código del Participante Autorizado",
+      "flex": 1
+    },
+    {
+      "field": "NombredelParticipanteAutorizado",
+      "headerName": "Nombre del Participante Autorizado",
+      "flex": 1
+    },
+    {
+      "field": "CodigoAdministrador",
+      "headerName": "Código del Administrador",
+      "flex": 1
+    },
+    {
+      "field": "AdministradorETF",
+      "headerName": "Administrador del ETF",
+      "flex": 1
+    },
+    {
+      "field": "Fechaingresoorden",
+      "headerName": "Fecha de ingreso de la orden",
+      "flex": 1
+    },
+    {
+      "field": "Fechaliquidacion",
+      "headerName": "Fecha de liquidación",
+      "flex": 1
+    },
+    {
+      "field": "NombreETF",
+      "headerName": "Nombre del ETF",
+      "flex": 1
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0001",
+      "nombreEtf": "Horizons Fondo Bursátil iShares",
+      "nemotecnico": "HCOLSEL",
+      "fechaOperacion": "28 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 2,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0002",
+      "nombreEtf": "iShares COLCAP (Fondo Bursátil)",
+      "nemotecnico": "ICOLCAP",
+      "fechaOperacion": "28 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 3,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "PE0001",
+      "nombreEtf": "Acciones ordinarias",
+      "nemotecnico": "ICOLCAP",
+      "fechaOperacion": "28 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 4,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0003",
+      "nombreEtf": "Global X MSCI Colombia ETF",
+      "nemotecnico": "GXG",
+      "fechaOperacion": "27 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 5,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0004",
+      "nombreEtf": "iShares Latin America 40 ETF",
+      "nemotecnico": "ILF",
+      "fechaOperacion": "27 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 6,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "PE0002",
+      "nombreEtf": "Fondo Bursátil Peru Select",
+      "nemotecnico": "PSELECT",
+      "fechaOperacion": "26 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 7,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0005",
+      "nombreEtf": "ETF Renta Fija Colombia",
+      "nemotecnico": "RFCOL",
+      "fechaOperacion": "26 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 8,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CL0001",
+      "nombreEtf": "iShares MSCI Chile ETF",
+      "nemotecnico": "ECH",
+      "fechaOperacion": "25 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 9,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0006",
+      "nombreEtf": "ETF Acciones Colombia Plus",
+      "nemotecnico": "COLPLUS",
+      "fechaOperacion": "25 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 10,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "PE0003",
+      "nombreEtf": "ETF Peru Growth Index",
+      "nemotecnico": "PERGROW",
+      "fechaOperacion": "24 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 11,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0007",
+      "nombreEtf": "Fondo Bursátil Dividendos CO",
+      "nemotecnico": "DIVCO",
+      "fechaOperacion": "24 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 12,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CL0002",
+      "nombreEtf": "ETF Chile Value Index",
+      "nemotecnico": "CHIVAL",
+      "fechaOperacion": "23 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    },
+    {
+      "id": 13,
+      "ordenesIngresadas": "Ver Ordenes",
+      "codigoIsinEtf": "CO0008",
+      "nombreEtf": "ETF Infraestructura Andina",
+      "nemotecnico": "INFAND",
+      "fechaOperacion": "23 de agosto 2025",
+      "NombreParticipanteRegistrador": "Lorem ipsum",
+      "CodigoParticipanteAutorizado": "Lorem ipsum",
+      "NombredelParticipanteAutorizado": "Lorem ipsum",
+      "CodigoAdministrador": "Lorem ipsum",
+      "AdministradorETF": "Lorem ipsum",
+      "Fechaingresoorden": "Lorem ipsum",
+      "Fechaliquidacion": "Lorem ipsum",
+      "NemotecETF": "Lorem ipsum"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { useAuth } from './hooks/useAuth';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import GestionOrden from './components/GestionOrden';
+import ConsultaOrden from './components/ConsultaOrden';
 import ProtectedRoute from './components/ProtectedRoute';
 
 // Componente para redirigir si ya está autenticado
@@ -43,6 +44,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <GestionOrden />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/etf/consulta-ordenes"
+        element={
+          <ProtectedRoute>
+            <ConsultaOrden />
           </ProtectedRoute>
         }
       />

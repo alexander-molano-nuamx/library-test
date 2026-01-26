@@ -7,7 +7,7 @@ import {
   Typography,
   TextField,
   Breadcrumbs,
-  DataGridPro,
+  DataGrid,
   CalendarButton,
   NotificationButton,
   SwitchThemeButton,
@@ -24,7 +24,7 @@ import etfOrdersData from '../data/etfOrders.json';
 const { Box } = DefaultComponents;
 const { RestartAlt } = MaterialIcons;
 
-function GestionOrden() {
+function ConsultaOrden() {
   const { user, logout } = useAuth();
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
@@ -75,7 +75,7 @@ function GestionOrden() {
   // Links para breadcrumbs
   const breadcrumbLinks = [
     { name: 'Administración de ETF', path: '/etf' },
-    { name: 'Gestión de orden', path: '/etf/gestion-orden' },
+    { name: 'Consulta de ordenes', path: '/etf/consulta-ordenes' },
   ];
 
   const handleRefresh = () => {
@@ -147,7 +147,7 @@ function GestionOrden() {
 
           {/* Título */}
           <Typography variant="h5" sx={{ mb: 2, flexShrink: 0 }}>
-            Gestión de orden
+            Consulta de ordenes
           </Typography>
 
           {/* Buscador */}
@@ -161,9 +161,9 @@ function GestionOrden() {
             />
           </Box>
 
-          {/* Tabla DataGridPro */}
+          {/* Tabla DataGrid */}
           <Box sx={{ width: '100%', flex: 1, minHeight: 0 }}>
-            <DataGridPro
+            <DataGrid
               key={gridKey}
               rows={filteredRows}
               columns={columns}
@@ -220,4 +220,4 @@ function GestionOrden() {
   );
 }
 
-export default GestionOrden;
+export default ConsultaOrden;
