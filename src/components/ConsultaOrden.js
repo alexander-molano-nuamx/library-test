@@ -7,7 +7,7 @@ import {
   Typography,
   TextField,
   Breadcrumbs,
-  DataGrid,
+  DataGridPro,
   CalendarButton,
   NotificationButton,
   SwitchThemeButton,
@@ -32,7 +32,6 @@ function ConsultaOrden() {
   const [gridKey, setGridKey] = useState(0);
   const location = useLocation();
   const navigate = useNavigate();
-
   // Cargar datos del JSON
   useEffect(() => {
     setRows(etfOrdersData.rows);
@@ -161,10 +160,11 @@ function ConsultaOrden() {
             />
           </Box>
 
-          {/* Tabla DataGrid */}
+          {/* Tabla DataGridPro */}
           <Box sx={{ width: '100%', flex: 1, minHeight: 0 }}>
-            <DataGrid
+            <DataGridPro
               key={gridKey}
+              autosizeOnMount
               rows={filteredRows}
               columns={columns}
               initialState={{
@@ -214,6 +214,7 @@ function ConsultaOrden() {
               sx={{ height: '100%' }}
             />
           </Box>
+
         </Box>
       </Content>
     </Box>

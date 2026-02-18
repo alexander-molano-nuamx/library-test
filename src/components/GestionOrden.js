@@ -24,7 +24,6 @@ import {
   TabsWrapper,
   TabItem,
 } from "@nuam/common-fe-lib-components";
-import { useGridApiRef } from "@mui/x-data-grid";
 import { useAuth } from "../hooks/useAuth";
 import { pages, bottomMenu } from "../config/navigation";
 import etfOrdersData from "../data/etfOrders.json";
@@ -67,26 +66,10 @@ function GestionOrden() {
 
   const location = useLocation();
   const navigate = useNavigate();
-  const apiRef = useGridApiRef();
-
   // Cargar datos del JSON
   useEffect(() => {
     setRows(etfOrdersData.rows);
   }, []);
-
-  // Auto-ajustar columnas cuando los datos se cargan
-  useEffect(() => {
-    if (rows.length > 0 && apiRef.current) {
-      // Pequeño delay para asegurar que la tabla está renderizada
-      const timer = setTimeout(() => {
-        apiRef.current?.autosizeColumns({
-          includeHeaders: true,
-          includeOutliers: true,
-        });
-      }, 100);
-      return () => clearTimeout(timer);
-    }
-  }, [rows, apiRef]);
 
   // Filtrar datos según búsqueda
   const filteredRows = useMemo(() => {
@@ -331,7 +314,7 @@ function GestionOrden() {
           <Box sx={{ width: "100%", flex: 1, minHeight: 0 }}>
             <DataGridPro
               key={gridKey}
-              apiRef={apiRef}
+              autosizeOnMount
               rows={filteredRows}
               columns={columns}
               initialState={{
