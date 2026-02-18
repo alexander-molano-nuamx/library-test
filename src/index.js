@@ -1,3 +1,4 @@
+import './muiLicense'; // Inicializa la licencia MUI X antes de cualquier componente
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
