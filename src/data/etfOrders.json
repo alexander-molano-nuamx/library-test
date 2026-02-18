@@ -3,69 +3,56 @@
     {
       "field": "ordenesIngresadas",
       "headerName": "Ordenes ingresadas",
-      "flex": 1,
 
       "type": "link"
     },
     {
       "field": "codigoIsinEtf",
-      "headerName": "Código ISIN ETF",
-      "flex": 1
+      "headerName": "Código ISIN ETF"
     },
     {
       "field": "nombreEtf",
-      "headerName": "Nombre del ETF",
-      "flex": 1.5
+      "headerName": "Nombre del ETF"
     },
     {
       "field": "nemotecnico",
-      "headerName": "Nemotécnico",
-      "flex": 1
+      "headerName": "Nemotécnico"
     },
     {
       "field": "fechaOperacion",
-      "headerName": "Fecha de operación",
-      "flex": 1
+      "headerName": "Fecha de operación"
     },
     {
       "field": "NombreParticipanteRegistrador",
-      "headerName": "Nombre del Participante Registrador",
-      "flex": 1
+      "headerName": "Nombre del Participante Registrador"
     },
     {
       "field": "CodigoParticipanteAutorizado",
-      "headerName": "Código del Participante Autorizado",
-      "flex": 1
+      "headerName": "Código del Participante Autorizado"
     },
     {
       "field": "NombredelParticipanteAutorizado",
-      "headerName": "Nombre del Participante Autorizado",
-      "flex": 1
+      "headerName": "Nombre del Participante Autorizado"
     },
     {
       "field": "CodigoAdministrador",
-      "headerName": "Código del Administrador",
-      "flex": 1
+      "headerName": "Código del Administrador"
     },
     {
       "field": "AdministradorETF",
-      "headerName": "Administrador del ETF",
-      "flex": 1
+      "headerName": "Administrador del ETF"
     },
     {
       "field": "Fechaingresoorden",
-      "headerName": "Fecha de ingreso de la orden",
-      "flex": 1
+      "headerName": "Fecha de ingreso de la orden"
     },
     {
       "field": "Fechaliquidacion",
-      "headerName": "Fecha de liquidación",
-      "flex": 1
+      "headerName": "Fecha de liquidación"
     },
     {
       "field": "NombreETF",
-      "headerName": "Nombre del ETF",
-      "flex": 1
+      "headerName": "Nombre del ETF"
     }
   ],
   "rows": [
