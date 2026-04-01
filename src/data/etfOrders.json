@@ -53,6 +53,18 @@
     {
       "field": "NombreETF",
       "headerName": "Nombre del ETF"
+    },
+    {
+      "field": "nivelAprobacion",
+      "headerName": "Nivel de aprobación",
+      "type": "nivelAprobacion",
+      "minWidth": 230
+    },
+    {
+      "field": "categoria",
+      "headerName": "Categoría",
+      "type": "categoria",
+      "minWidth": 230
     }
   ],
   "rows": [
@@ -70,7 +82,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Un autorizador requerido",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Gestión de fondos cotizados"
     },
     {
       "id": 2,
@@ -86,7 +102,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Dos autorizadores requeridos",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Exención de retención en fuente"
     },
     {
       "id": 3,
@@ -102,7 +122,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 4,
@@ -118,7 +142,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 5,
@@ -134,7 +162,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 6,
@@ -150,7 +182,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 7,
@@ -166,7 +202,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 8,
@@ -182,7 +222,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 9,
@@ -198,7 +242,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 10,
@@ -214,7 +262,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 11,
@@ -230,7 +282,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 12,
@@ -246,7 +302,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control dual",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Cuentas exentas",
+      "categoriaSecundaria": "Lorem ipsum"
     },
     {
       "id": 13,
@@ -262,7 +322,11 @@
       "AdministradorETF": "Lorem ipsum",
       "Fechaingresoorden": "Lorem ipsum",
       "Fechaliquidacion": "Lorem ipsum",
-      "NemotecETF": "Lorem ipsum"
+      "NemotecETF": "Lorem ipsum",
+      "nivelAprobacion": "Control único",
+      "nivelAprobacionSecundario": "Lorem ipsum",
+      "categoria": "Administración de ETF",
+      "categoriaSecundaria": "Lorem ipsum"
     }
   ]
 }
